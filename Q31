@@ -1,0 +1,10 @@
+let arr = ["Sami","Ashiq","Admin","Ali","Samad"]
+ if(arr.length == 0){
+    console.log("We need users")
+ }else {
+    for( let i=arr.length;i>0;i--){
+    
+        arr.pop()
+    }
+ }
+  console.log(arr)
