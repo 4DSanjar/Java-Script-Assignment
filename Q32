@@ -11,3 +11,4 @@ for (let i = 0; i < new_user.length; i++) {
     } else {
         console.log(`Usernmae ${new_user[i]} is available`)
     }
+}
