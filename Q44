@@ -1,15 +1,15 @@
 
 const sandwich =(...args)=>{
-    let order = "The sandwitch includes "
 
     for(let i=0; i<args.length; i++){
         if(i == args.length-1){
-            console.log(`${order} ${args[i]}\nThe sandwitch should have all these items`)
+            console.log(` ${args[i]}\nThe sandwitch should have all these items`)
         }
         else{
-            console.log(`${order} ${args[i]}`)
+            console.log(` ${args[i]}`)
         }
     }
 }
-
+let order = "The sandwitch includes "
+console.log(order)
 sandwich("Potato","Fish","Chicken")
